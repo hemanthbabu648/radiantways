@@ -1,13 +1,13 @@
 import { Caveat, Indie_Flower, Kaushan_Script } from 'next/font/google';
 
 export const caveat = Caveat({
-    variable: '--font-caveat',
-    weight: ['400', '500', '600', '700'],
-    style: ['normal'],
-    display: 'swap',
-    subsets: ['latin'],
-    fallback: ['cursive'],
-    preload: true,
+  variable: '--font-caveat',
+  weight: ['400', '500', '600', '700'],
+  style: ['normal'],
+  display: 'swap',
+  subsets: ['latin'],
+  fallback: ['cursive'],
+  preload: true,
 });
 
 export const indieFlower = Indie_Flower({
@@ -29,5 +29,3 @@ export const kaushanScript = Kaushan_Script({
   fallback: ['cursive'],
   preload: true,
 });
-
-

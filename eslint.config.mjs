@@ -1,5 +1,6 @@
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
+
 import { FlatCompat } from '@eslint/eslintrc';
 import importPlugin from 'eslint-plugin-import';
 
@@ -38,7 +39,7 @@ const eslintConfig = [
             'builtin',
             'external',
             'internal',
-            [ 'parent', 'sibling', 'index' ],
+            ['parent', 'sibling', 'index'],
             'object',
             'type',
           ],
