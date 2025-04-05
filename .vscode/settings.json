@@ -3,4 +3,5 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "prettier.semi": true,
     "typescript.format.enable": false,
+    "css.lint.unknownAtRules": "ignore",
 }
